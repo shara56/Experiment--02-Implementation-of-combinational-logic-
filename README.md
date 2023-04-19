@@ -2,7 +2,7 @@
 Implementation of combinational logic gates
  
 ## AIM:
-To implement the given logic function verify its operation in Quartus using Verilog programming.
+To implement the given logic function using NAND and NOR gates and to verify its operation in Quartus using Verilog programming.
 
 F=((C'.B.A)'(D'.C.A)'(C.B'.A)')' using NAND gate F=(((C.B'.A)+(D.C'.A)+(C.B'.A))')' using NOR gate
  
@@ -46,13 +46,14 @@ F=(((C.B'.A)+(D.C'.A)+(C.B'.A))')'
 6.Give the respective inputs for timing diagram and obtain the results.
 
 ## Program:
-
-Program to implement the given logic function and to verify its operations in quartus using Verilog programming.
+```
+Program to implement the given logic function using NAND and NOR gates and to verify its operations in quartus using 
+Verilog programming.
 
 Developed by: SHARANGINI T K
-
 RegisterNumber: 212222230143
-```
+
+
 Using NAND gates:
 
 module NAND(A,B,C,D,F);
@@ -95,4 +96,4 @@ endmodule
 ![image](https://user-images.githubusercontent.com/113497104/233030131-20094862-4cc5-4170-8cce-f8e67f97644d.png)
 
 ## Result:
-Thus the given logic functions are implemented using  and their operations are verified using Verilog programming.
+Thus the given logic functions are implemented using NAND and NOR gates and their operations are verified using Verilog programming.
