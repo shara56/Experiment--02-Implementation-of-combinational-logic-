@@ -1,5 +1,5 @@
 # Experiment--02-Implementation-of-combinational-logic
-Implementation of combinational logic gates
+Implementation of combinational logic using universal-gates
  
 ## AIM:
 To implement the given logic function using NAND and NOR gates and to verify its operation in Quartus using Verilog programming.
